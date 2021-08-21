@@ -1,0 +1,209 @@
+.styledLinkContent{
+    color:#000;
+  }
+
+.sliderLayoutContainer {
+    justify-content: center;
+  }
+  
+  .paginationDotsContainer {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+  }
+  
+  .layoutContainer--shelf {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 96rem;
+  }
+  
+  .slide--shelf {
+    margin-bottom: 35px;
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+  
+  
+  .sliderArrows--shelf {
+    border-radius: 50%;
+    box-sizing: border-box;
+    height: 40px;
+    width: 40px;
+  }
+  
+  .sliderRightLeft--home-banner-carousel {
+    border: 1px solid #C7C7C7;
+  }
+  
+  .sliderRightArrow--home-banner-carousel {
+    border: 1px solid #1B5A41;
+  }
+  
+  .sliderRightLeft .caretIcon--shelf {
+    color: #757575;
+  }
+  
+  .sliderRightArrow .caretIcon--shelf {
+    color: #1B5A41;
+  }
+  
+  
+  /* Inicio Home */
+  
+  .sliderLayoutContainer--home-banner-carousel {
+    background-color: #FFFFFF;
+  }
+  
+  .paginationDotsContainer--home-banner-carousel {
+    bottom: -40px;
+  }
+  
+  .paginationDot--home-banner-carousel--isActive::before,
+  .paginationDot--home-categorias-carousel--isActive::before,
+  .paginationDot--home-marcas-carousel--isActive::before,
+  .paginationDot--shelf--isActive::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+  }
+  
+  .sliderArrows--home-banner-carousel {
+    border-radius: 50%;
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .sliderArrows {
+    border-radius: 50%;
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.65);
+  }
+  
+  .sliderLeftArrow {
+    border: 1px solid #C7C7C7;
+    background: rgba(255, 255, 255, 0.65);
+  }
+  
+  .sliderLeftArrow:hover {
+    border: 1px solid #1B5A41;;
+  }
+  
+  .sliderLeftArrow .caretIcon {
+    width: 16px;
+    color: #757575;
+  }
+  
+  .sliderLeftArrow .caretIcon:hover {
+    color: #1B5A41;
+  }
+  
+  .sliderRightArrow.sliderArrows--shelf .caretIcon {
+    color: #1B5A41;
+    width: 16px;
+  }
+  
+  .sliderLeftArrow.sliderArrows--shelf {
+    right: 60px;
+    bottom: 495px;
+    left: auto;
+  }
+  
+  .sliderRightArrow.sliderArrows--shelf  {
+    right: 10px;
+    bottom: 495px;
+    left: auto;
+    border: 1px solid #1B5A41;
+  }
+  
+  .sliderLayoutContainer {
+    padding: 0 !important;
+  }
+  
+  @media screen and (max-width: 640px) {
+  
+    .sliderArrows--shelf {
+      border-radius: 50%;
+      box-sizing: border-box;
+      height: 25px;
+      width: 25px;
+    }
+  
+    .sliderLeftArrow.sliderArrows--shelf {
+      right: auto;
+      left: 0;
+      bottom: 50%;
+      border: 0;
+      background: #242424 !important;
+    }
+  
+    .sliderRightArrow.sliderArrows--shelf  {
+      right: 0;
+      left: auto;
+      bottom: 50%;
+      border: 0;
+      background: #242424 !important;
+    }
+  
+    .sliderArrows--shelf .caretIcon {
+      color: #FFFFFF !important;
+      width: 10px !important;
+    }
+  }
+  
+  .slide--shelf--visible {
+    height: 456px;
+  }
+  
+  .sliderLayoutContainer--home-marcas-image {
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+  
+  .sliderLayoutContainer--home-marcas .imageElement{
+    width: auto!important;
+    height: 115px!important;
+  }
+  
+  .sliderLayoutContainer--home-marcas .imageElement::after{
+    content: "\o";
+    font-size: 12px;
+  }
+  
+  .notificationBarContainer{
+    background-color: #000 !important;
+  }
+
+  .notificationContent{
+    color: #fff;
+    font-size: 18px;
+  }
+
+  .flexRowContent--main-header{
+    background-color: #000 !important;
+  }
+
+  .container{
+    background-color: #303030 !important;
+  }
+
+  .buttonContainer{
+    background-color: #000;
+    padding-right: 50px;
+  }
+
+.flexColChild--menu-itens-col{
+  width:50% !important;
+}
+
+.flexRowContent--redes-sociais{
+  margin-left: -500px !important;
+}

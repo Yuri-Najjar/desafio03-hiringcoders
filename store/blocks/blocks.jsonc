@@ -1,0 +1,37 @@
+{
+"product-summary.shelf": {
+    "children": [
+      "product-teaser.summary",
+      "stack-layout#prodsum",
+      "product-teaser.labelSeloInferior",
+      "product-summary-name",
+      "product-summary-price",
+      "product-teaser.labelOpcional1",
+      "condition-layout.product#cond1"
+    ],
+    "props": {
+      "showBadge": true,
+      "displayBuyButton": "displayButtonNone",
+      "hideBuyButton": true,
+      "showListPrice": "true",
+      "blockclass": "product-summary"
+    }
+  },
+  "product-summary-image#shelf": {
+    "props": {
+      "showBadge": false,
+      "aspectRatio": "1:1",
+      "maxHeight": 300
+    }
+  },
+  "stack-layout#prodsum": {
+    "children": [
+      "product-summary-image#shelf"
+    ]
+  },
+  "product-summary-image": {
+    "props": {
+      "height": 220
+    }
+  }
+}

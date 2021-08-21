@@ -1,0 +1,58 @@
+{
+    "vtex.menu@2.x:menu#category-menu": {
+      "props": {
+        "experimentalOptimizeRendering": true
+      },
+      "children": [
+        "menu-item#category-promo",
+        "menu-item#category-gremio",
+        "menu-item#category-inter"
+      ]
+    },
+    "menu-item#category-promo": {
+      "props": {
+        "id": "menu-item-category-promo",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/promo/",
+          "noFollow": false,
+          "tagTitle": "PROMOÇÕES",
+          "text": "PROMOÇÕES"
+        }
+      }
+    },
+    "menu-item#category-gremio": {
+      "props": {
+        "id": "menu-item-category-gremio",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/gremio/",
+          "noFollow": false,
+          "tagTitle": "GRÊMIO",
+          "text": "GRÊMIO"
+        }
+      }
+    },
+    "menu-item#category-inter": {
+        "props": {
+          "id": "menu-item-category-inter",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/inter/",
+            "noFollow": false,
+            "tagTitle": "INTERNACIONAL",
+            "text": "INTERNACIONAL"
+          }
+        }
+      }
+  }
+  

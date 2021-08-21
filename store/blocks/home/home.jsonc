@@ -1,0 +1,126 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#home-fullbanner",
+      "__fold__.experimentalLazyAssets",
+      "list-context.product-list#destaque"
+    ],
+    "props": {
+      "blockClass": "container-home"
+    },
+    "parent": {
+      "challenge": "challenge.trade-policy-condition"
+    }
+  },
+
+  "list-context.image-list#home-fullbanner": {
+    "children": ["slider-layout#home-fullbanner"],
+    "props": {
+      "images": [
+        {
+          "image": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/6iibxhv7jzzdn2749uhoxub2fdjf?response-content-disposition=inline%3B%20filename%3D%22BANNER-WOOD.png%22%3B%20filename%2A%3DUTF-8%27%27BANNER-WOOD.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIRHGNFPZAGTZ7SUA%2F20210820%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210820T001516Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=e89db13736fadbed2539cfaff2de990e818fb7dbab2e10290e3463c11379cece",
+          "mobileImage": "",
+          "title":"Banner01",
+          "link":{
+            "url":""
+          }    
+        },
+        {
+          "image": "/assets/banner02.png",
+          "mobileImage": "",
+          "title":"Banner02",
+          "link":{
+            "url":""
+          }    
+        }
+      ]
+    }
+  },
+
+  "slider-layout#home-fullbanner": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "home-banner-carousel",
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      }
+    }
+  },
+
+  "flex-layout.col#home-banner-1": {
+    "children": [
+      "image#home-banner-1"
+    ],
+    "props": {
+      "blockClass": "home-banner"
+    }
+  },
+
+  "image#home-banner-1": {
+    "props": {
+      "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/6iibxhv7jzzdn2749uhoxub2fdjf?response-content-disposition=inline%3B%20filename%3D%22BANNER-WOOD.png%22%3B%20filename%2A%3DUTF-8%27%27BANNER-WOOD.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIRHGNFPZAGTZ7SUA%2F20210820%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210820T001516Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=e89db13736fadbed2539cfaff2de990e818fb7dbab2e10290e3463c11379cece",
+      "link": {
+        "url": ""
+      },
+      "width": "100%"
+    }
+  },
+
+  "flex-layout.col#home-banner-2": {
+    "children": [
+      "image#home-banner-2"
+    ],
+    "props": {
+      "blockClass": "home-banner"
+    }
+  },
+
+  "image#home-banner-2": {
+    "props": {
+      "src": "/assets/banner2.png",
+      "link": {
+        "url": ""
+      },
+      "width": "100%"
+    }
+  },
+
+  "flex-layout.row#shelf-destaque": {
+    "children": [
+      "list-context.product-list#destaque"
+    ],
+    "props": {
+      "blockClass": "shelf-row-first"
+    }
+  },
+
+  "list-context.product-list#destaque": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#destaque"],
+    "props": {
+      "blockClass": "shelf-list",
+      "collection": "153"
+    }
+  },
+
+  "slider-layout#destaque": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  }
+}

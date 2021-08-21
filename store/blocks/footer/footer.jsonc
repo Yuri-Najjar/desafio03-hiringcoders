@@ -1,0 +1,319 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "newsletter",
+      "flex-layout.row#footer-3-desktop",
+      "flex-layout.row#footer-4-desktop",
+      "flex-layout.row#footer-5-desktop"
+    ]
+  },
+
+  "rich-text#politica-de-privacidade": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Ao clicar em cadastrar, você concorda com o envio de nossas novidades e ofertas. Para saber mais, veja nossa [política de privacidade aqui]().",
+      "blockClass": "footer-newsletter-politica-privacidade"
+    }
+  },
+
+  "flex-layout.row#footer-5-desktop": {
+    "children": [
+      "rich-text#newsletterText"
+    ],
+    "props": {
+      "blockClass": "newsletter-row-text"
+    }
+  },
+
+  "flex-layout.row#footer-3-desktop": {
+    "children": [
+      "flex-layout.col#socialmedia-contato"
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 1,
+      "paddingBottom": 5
+    }
+  },
+
+  "flex-layout.col#socialmedia-contato": {
+    "children": [
+      "rich-text#socialmedia",
+      "flex-layout.row#socialmedia",
+      "rich-text#contato"
+    ],
+    "props": {
+      "blockClass": "menu-itens-col"
+    }
+  },
+  "rich-text#socialmedia": {
+    "props": {
+      "text": "Redes sociais",
+      "blockClass": "titulo-footer-redes-sociais"
+    }
+  },
+
+  "flex-layout.row#socialmedia": {
+    "children": [
+      "image#linkedin",
+      "image#instagram"
+    ],
+    "props": {
+      "blockClass": "redes-sociais"
+    }
+  },
+  "image#linkedin": {
+    "props": {
+      "link": {
+        "url": "https://www.linkedin.com/in/yuri-castro-najar/",
+        "newTab": true,
+        "attributeTitle": "Linkedin"
+      },
+      "src": "https://w7.pngwing.com/pngs/887/616/png-transparent-linkedin-icon-linkedin-text-rectangle-logo.png",
+      "maxHeight": "32px"
+    }
+  },
+ "image#instagram": {
+    "props": {
+      "link": {
+        "url": "",
+        "newTab": true,
+        "attributeTitle": "Instagram"
+      },
+      "src": "",
+      "maxHeight": "32px"
+    }
+  },
+
+  "rich-text#contato": {
+    "props":{
+      "text": "Contato",
+      "blockClass": "titulo-footer-contato"
+    }
+  },
+
+  "flex-layout.row#footer-4-desktop": {
+    "children": [
+      "flex-layout.col#metodos-de-pagamento",
+      "flex-layout.col#selos-de-seguranca"
+    ],
+    "props": {
+      "blockClass": "pagamento-e-seguranca"
+    }
+  },
+  "flex-layout.col#metodos-de-pagamento": {
+    "children": [
+      "rich-text#metodos-de-pagamento",
+      "flex-layout.row#bandeiras-pagamento"
+    ]
+  },
+  "rich-text#metodos-de-pagamento": {
+    "props": {
+      "text": "Formas de pagamento",
+      "blockClass": "titulo-footer"
+    }
+  },
+  "flex-layout.row#bandeiras-pagamento": {
+    "children": [
+      "image#amex",
+      "image#master-card",
+      "image#visa",
+      "image#elo",
+      "image#dinners"
+    ],
+    "props": {
+      "blockClass": "bandeiras-pagamento"
+    }
+  },
+  "image#amex": {
+    "props": {
+      "src": "https://w7.pngwing.com/pngs/832/9/png-transparent-centurion-card-american-express-credit-card-discover-card-credit-card.png",
+      "maxHeight": "40px"
+    }
+  },
+  "image#master-card": {
+    "props": {
+      "src": "https://w7.pngwing.com/pngs/948/539/png-transparent-mastercard-icon-credit-card-payment-card-mastercard-logo-text-label-logo.png",
+      "maxHeight": "40px"
+    }
+  },
+  "image#visa": {
+    "props": {
+      "src": "https://w7.pngwing.com/pngs/223/258/png-transparent-visa-electron-credit-card-computer-icons-visa-text-logo-payment.png",
+      "maxHeight": "40px"
+    }
+  },
+  "image#elo": {
+    "props": {
+      "src": "https://w7.pngwing.com/pngs/935/727/png-transparent-eletrovale-participacoes-s-a-credit-card-mastercard-visa-payment-credit-card-payment-internet-symbol.png",
+      "maxHeight": "40px"
+    }
+  },
+  "image#dinners": {
+    "props": {
+      "src": "https://w7.pngwing.com/pngs/453/18/png-transparent-diners-club-international-credit-card-jcb-co-ltd-mastercard-business-credit-card-text-payment-logo.png",
+      "maxHeight": "40px"
+    }
+  },
+
+  "flex-layout.col#selos-de-seguranca": {
+    "children": [
+      "rich-text#selos-de-seguranca",
+      "flex-layout.row#selos"
+    ]
+  },
+  "rich-text#selos-de-seguranca": {
+    "props": {
+      "text": "Selos de Segurança",
+      "blockClass": "titulo-footer"
+    }
+  },
+  "flex-layout.row#selos": {
+    "children": [
+      "image#security-google",
+      "image#security-comodo",
+      "image#security-compre-confie",
+      "image#security-ebit",
+      "image#pci-certified",
+      "image#google-safe-webiste"
+    ],
+    "props": {
+      "blockClass": "selos-seguranca"
+    }
+  },
+
+  "image#security-google": {
+    "props": {
+      "src": "",
+      "maxHeight": "40px"
+    }
+  },
+  "image#security-comodo": {
+    "props": {
+      "src": "",
+      "maxHeight": "40px"
+    }
+  },
+  "image#security-compre-confie": {
+    "props": {
+      "src": "",
+      "maxHeight": "40px"
+    }
+  },
+  "image#security-ebit": {
+    "props": {
+      "src": "",
+      "maxHeight": "40px"
+    }
+  },
+  "image#pci-certified": {
+    "props": {
+      "src": "https://w7.pngwing.com/pngs/497/642/png-transparent-service-web-application-security-insurance-protect-miscellaneous-web-design-text.png",
+      "maxHeight": "40px"
+    }
+  },
+  "image#google-safe-webiste": {
+    "props": {
+      "src": "https://w7.pngwing.com/pngs/91/537/png-transparent-shield-blue-security-shield-blue-angle-emblem.png",
+      "maxHeight": "30px"
+    }
+  },
+
+  "rich-text#newsletterText": {
+    "props": {
+      "text": "© 2021 Najjar Desafio 03. Todos os Direitos Reservados.",
+      "blockClass": "newsletter-text"
+    }
+  },
+
+
+  "flex-layout.col#powered-developed": {
+    "children": [
+      "flex-layout.row#powered-developed"
+    ],
+    "props": {
+      "blockClass": "powered-developed"
+    }
+  },
+  "flex-layout.row#powered-developed": {
+    "children": [
+      "flex-layout.col#powered",
+      "flex-layout.col#developed"
+    ],
+    "props": {
+      "blockClass": "powered-developed"
+    }
+  },
+
+  "flex-layout.col#powered": {
+    "children": [
+      "rich-text#powered"
+    ],
+    "props": {
+      "blockClass": "powered"
+    }
+  },
+  "rich-text#powered": {
+    "props": {
+      "text": "Powered by",
+      "blockClass": "powered-developed"
+    }
+  },
+
+  "flex-layout.col#developed": {
+    "children": [
+      "rich-text#developed"
+    ],
+    "props": {
+      "blockClass": "developed"
+    }
+  },
+  "rich-text#developed": {
+    "props": {
+      "text": "Developed by",
+      "blockClass": "powered-developed"
+    }
+  },
+
+  "footer-layout.mobile": {
+    "children": [
+      "newsletter",
+      "flex-layout.row#4-footer-mobile",
+      "flex-layout.row#5-footer-mobile"
+    ]
+  },
+  "flex-layout.row#5-footer-mobile": {
+    "children": [
+      "flex-layout.row#footer-5-desktop"
+    ],
+    "props": {
+      "blockClass": "newsletter-row-text"
+    }
+  },
+  "flex-layout.row#4-footer-mobile": {
+    "children": [
+      "flex-layout.col#footer-1-mobile"
+    ],
+    "props": {
+      "blockClass": "menu-mobile-itens",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+  "flex-layout.col#footer-1-mobile": {
+    "children": [
+      "flex-layout.col#socialmedia-contato",
+      "flex-layout.row#footer-4-desktop"
+    ],
+    "props": {
+      "blockClass": "menu-mobile-infos",
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "rowGap": 4
+    }
+  }
+}
